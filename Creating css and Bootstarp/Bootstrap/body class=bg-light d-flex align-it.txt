@@ -1,0 +1,11 @@
+<body class="bg-light d-flex align-items-center justify-content-center vh-100">
+    <div class="card shadow-lg p-4" style="width: 100%; max-width: 400px;">
+
+<input type="text" id="username" name="username" class="form-control" placeholder="Enter username" required>
+
+
+<button type="submit" class="btn btn-primary w-100">Login</button>
+
+<p class="text-center mt-3">
+    Don't have an account? <a href="register.html" class="text-decoration-none">Register here</a>
+</p>

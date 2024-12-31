@@ -1,0 +1,31 @@
+/* Custom styling for the form container */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.card {
+    border-radius: 10px; /* Rounded corners for the card */
+    border: none; /* Remove border */
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue focus glow */
+    border-color: #007bff;
+}
+
+button {
+    border-radius: 50px; /* Rounded button */
+    font-weight: bold;
+}
+
+/* Add spacing for footer text links */
+.text-center a {
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.text-center a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
