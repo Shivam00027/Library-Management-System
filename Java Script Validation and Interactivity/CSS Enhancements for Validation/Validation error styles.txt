@@ -1,0 +1,28 @@
+/* Validation error styles */
+.is-invalid {
+    border-color: #dc3545;
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}
+
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+/* Password strength feedback */
+.strength {
+    font-weight: bold;
+}
+
+.strength.weak {
+    color: #dc3545;
+}
+
+.strength.medium {
+    color: #ffc107;
+}
+
+.strength.strong {
+    color: #28a745;
+}
